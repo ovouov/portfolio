@@ -65,8 +65,6 @@ body {
     font-weight: bold;
 } */
 
-/* 해당 화면에 예를들어 SKILL화면이 옵저버되면 메뉴바안의 SKILL 글씨를 주황색으로 바꾸자 */
-
 .container {
   height: 100%;
   width: 100vw;
@@ -91,10 +89,6 @@ body {
 }
 
 .first {
-  background: url("/images/bg_snow.png") center center no-repeat,
-    -moz-linear-gradient(top, #afcfff 0%, #f5ecd1 100%);
-  background: url("/images/bg_snow.png") center center no-repeat,
-    -webkit-linear-gradient(top, #afcfff 0%, #f5ecd1 100%);
   background: url("/images/bg_snow.png") center center no-repeat,
     linear-gradient(to bottom, #afcfff 0%, #f5ecd1 100%);
 }
