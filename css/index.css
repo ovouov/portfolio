@@ -91,7 +91,6 @@ body {
 }
 
 .first {
-  background: #afcfff url("/images/bg_snow.png") center center no-repeat;
   background: url("/images/bg_snow.png") center center no-repeat,
     -moz-linear-gradient(top, #afcfff 0%, #f5ecd1 100%);
   background: url("/images/bg_snow.png") center center no-repeat,
