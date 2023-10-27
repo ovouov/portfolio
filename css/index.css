@@ -964,9 +964,9 @@ body {
 
 .five {
   background: #6b6098 url("../images/bg_snow.png") center center no-repeat;
-  background: url("./images/bg_snow.png") center center no-repeat,
+  background: url("../images/bg_snow.png") center center no-repeat,
     linear-gradient(top, #9b75af 0%, #6b6098 100%);
-  background: url("./images/bg_snow.png") center center no-repeat,
+  background: url("../images/bg_snow.png") center center no-repeat,
     linear-gradient(top, #9b75af 0%, #6b6098 100%);
   background: url("../images/bg_snow.png") center center no-repeat,
     linear-gradient(to bottom, #9b75af 0%, #6b6098 100%);
