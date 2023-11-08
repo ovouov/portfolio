@@ -839,6 +839,14 @@ body {
   z-index: -1;
   color: burlywood;
 }
+.four_text_span_2 {
+  font-size: 3vw;
+  position: absolute;
+  top: -3.5vh;
+  left: -4vw;
+  z-index: -1;
+  color: #005621;
+}
 
 .close_btn {
   position: absolute;
@@ -871,12 +879,23 @@ body {
   background: rgb(133, 82, 40);
 }
 
+.four_circle_1_2 {
+  background: rgb(95, 45, 3);
+}
+
 .four_circle_2 {
   background: #838383;
 }
 
+.four_circle_2_2 {
+  background: darkgreen;
+}
+
 .four_circle_3 {
   background: beige;
+}
+.four_circle_3_2 {
+  background:rgb(24, 23, 23);
 }
 
 .swiper-slide img {
@@ -894,10 +913,23 @@ body {
   border-top: 1px solid #444444;
   border-collapse: collapse;
 }
+.four_table_2 {
+  text-align: left;
+  width: 80%;
+  font-size: 1vw;
+  line-height: 210%;
+  border-top: 1px solid #444444;
+  border-collapse: collapse;
+}
 
 .four_table tr td:nth-of-type(3) {
   text-decoration: underline;
   text-decoration-color: rgb(255, 196, 0);
+  text-decoration-thickness: 3px;
+}
+.four_table_2 tr td:nth-of-type(3) {
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 86, 33);
   text-decoration-thickness: 3px;
 }
 
@@ -909,7 +941,7 @@ body {
 
 .four_text_span_2 {
   text-decoration: underline;
-  text-decoration-color: rgb(255, 196, 0);
+  text-decoration-color: rgb(0, 86, 33);
   text-decoration-thickness: 3px;
   line-height: 200%;
 }
@@ -930,8 +962,24 @@ body {
   z-index: 1;
   transition: 0.5s;
 }
+.site_circle_2 {
+  background: #005621;
+  top: 0;
+  left: 12vw;
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  border-radius: 100px;
+  z-index: 1;
+  transition: 0.5s;
+}
+
 
 .site_box:hover .site_circle {
+  width: 11vw;
+}
+
+.site_box:hover .site_circle_2 {
   width: 11vw;
 }
 
@@ -946,7 +994,7 @@ body {
 }
 
 .swiper-pagination-bullet {
-  margin-top:10vh;
+  margin-top: 10vh;
   width: 1.1vw;
   height: 1.1vw;
   text-align: center;
@@ -976,8 +1024,8 @@ body {
   position: fixed;
   top: 1vh;
   animation: left_cloud 14s ease-in-out infinite;
-  display:none;
-  transition:1s;
+  display: none;
+  transition: 1s;
   opacity: 0;
 }
 
@@ -985,8 +1033,8 @@ body {
   animation: left_cloud_2 10s infinite ease;
   position: fixed;
   top: 48vh;
-  display:none;
-  transition:1s;
+  display: none;
+  transition: 1s;
   opacity: 0;
 }
 
@@ -1017,7 +1065,7 @@ body {
   text-align: center;
   z-index: 1;
   opacity: 0;
-  transition:0.5s;
+  transition: 0.5s;
 }
 
 .as_neon {
